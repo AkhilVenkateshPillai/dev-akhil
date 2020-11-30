@@ -137,6 +137,10 @@ td{
     text-align: center;
     color:black;
 }
+.footer-heading{
+    text-align: center;
+    color: var(--font);
+}
 
 .project-heading{
     text-align: left;
