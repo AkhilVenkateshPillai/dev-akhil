@@ -34,7 +34,7 @@ td{
     border-radius: 2rem;
 }
 .project-button-2{
-    border: 2px solid var(--font);
+    border: 2px solid black;
     color: var(--font);
     widows: 100px;
     padding:.5rem;
