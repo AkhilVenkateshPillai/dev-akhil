@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Fundamenals</title>
+</head>
+
+<body>
+
+    <div class="main-container">
+        <nav>
+            <div class="navigation">
+                <div class="container-fluid">
+                    <div class="navigation-header">
+                        <div class="navigation-heading-container-1">
+                            <img src="/images/mypic.png" class="profile-pic">
+                        </div>
+
+                        <div class="navigation-heading-container-2">
+                            <h2 class="navigation-heading">Hi there, I'm Akhil</h2>
+                        </div>
+
+                    </div>
+
+                    <ul class="list-right-align">
+                        <li class="list-items"><a href="/index.html" class="active-link">About</a></li>
+                        <li class="list-items"><a href="/projects.html">Projects</a></li>
+                        <li class="list-items"><a href="/blogs.html">Blogs</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+
+        <div class="blog-container">
+            If you are here to begin your journey to become a full-stack developer, understanding the basics of HTML
+            will be your first stepping stone. Or if you are here to simply learn how to build an awesome website of
+            your own, I have got your back. This could be used as an ultimate HTML cheat sheet for
+            beginners.<br><br>
+
+            Now let me answer some of the obvious questions:<br><br>
+
+            “Do you need to have a prior knowledge of any programming languages used for web development?”<br><br>
+
+            — NO, Not at all<br><br><br>
+
+            “But then, Can I build a HTML page on my own?”<br><br>
+
+            — Yes, at the end of the session you will have all the necessary tips and tricks to build your own
+            website.<br><br><br>
+
+            “Is there any requirement?”<br><br>
+
+            — Yes, PATIENCE.<br><br><br>
+
+            HTML stands for HyperText Markup Language. It is a language of web browsers.
+
+            How is it different from other web development languages?<br><br>
+
+            HTML is just a markup language that doesn’t really use any programming logic. It cannot be used for
+            functional purposes such as performing mathematical operations. It is simply used to create, design and
+            structure web pages.<br><br><br>
+
+            <h3>Now let us start our journey to become a hero from zero.</h3><br><br>
+
+            First, we need to have a HTML editor. HTML editors are nothing but just text editors where we will be
+            writing our codes to build our webpage. You can always open your default text editor and start writing the
+            codes. For example, the default text editor for windows is notepad. While saving the text files, instead of
+            saving it with .txt extension, change the extension to .html or .htm to save it as an html document.
+
+            <h3>Then why should you use other HTML editors?</h3> <br><br>
+
+            HTML editors have a lot of features such as error checking, auto-completion, highlight syntaxes etc. An HTML
+            editor is a precious tool irrespective of whether you are an absolute beginner or an advanced
+            developer.<br><br>
+
+            You will eventually understand why using an HTML editor makes our life easy.<br><br>
+
+            For the purpose of this tutorial, we will be using Visual Studio Code.<br><br>
+
+            You can download it using the following link:<br><br>
+
+            https://code.visualstudio.com/download<br><br>
+
+            <h3>Once you set up the HTML editor, Let us begin.</h3><br><br>
+
+            Let us first try to understand the structure of a basic html code. Lets carefully examine the HTML code
+            shown below. You could see several words enclosed within < and>. Those are called tags. Tags are used to
+                structure and organize contents in a HTML document.<br><br>
+
+
+
+                <pre class="project-container">
+
+&lt;!DOCTYPE html&gt; 
+&lt;html&gt; 
+&lt;head&gt; 
+&lt;title&gt;Page Title&lt;/title&gt; 
+&lt;/head&gt; 
+&lt;body&gt; 
+&lt;h1&gt;My First Heading&lt;/h1&gt; 
+&lt;p&gt;My first paragraph.&lt;/p&gt; 
+&lt;/body&gt; 
+&lt;/html&gt;
+                
+                    </pre>
+
+
+                <p>Feel free to copy the chunk of code and paste it in your editor.
+                    Save it and open the document in a web browser to see what we just did there. <br><br>
+                    Let’s look at some basic tags:
+
+                <h3>Tags. Why do we use it?</h3>
+
+                <img class="container" src="/blog_content/images/Screenshot (2).png" alt=""> <br><br>
+
+                It is important to note that every tag has two components, an opening tag and a closing tag. For
+                example, to define the body of a html document we will use an opening tag <br><br>
+
+                < body> and a closing tag </ body>. Every content will be enclosed within them.
+                Let’s explore the heading tag now:
+                Try these codes and observe what it does. <br><br></p>
+
+
+                <pre class="project-container">
+&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;
+                    </pre>
+
+
+
+                As you can see, you can use different tags to define different sizes for your headings. Now, if you
+                aren’t happy with the basic 6 sizes, you could always customize it. Let’s see how you do it: <br><br>
+
+                <pre class="project-container">
+&lt;h1 style=&quot;font-size:70px;&quot;&gt;Heading 1&lt;/h1&gt;
+                </pre>
+
+                We just customized the font size by using a ‘style’ attribute. Similarly, we can customize the font
+                style, colour and several other features. <br>
+                Lets try changing the font style, colour and give our heading a center alignment: <br><br>
+
+                <pre class="project-container">
+&lt;h1 style=&quot;text-align:center; font-size:70px; color:red&quot;&gt; Red Heading &lt;/h1&gt;
+                </pre>
+
+                Now let us move on to next tag,
+                The < p> tag <br>
+                    Let us try the following: <br>
+
+                    <pre class="project-container">
+&lt;!DOCTYPE html&gt; 
+&lt;html&gt; 
+&lt;head&gt; 
+&lt;title&gt;Our Page&lt;/title&gt; 
+&lt;/head&gt; 
+&lt;body&gt; 
+&lt;h1 style=&quot;text-align:center; font-size:30px; color:red&quot;&gt; Red Heading &lt;/h1&gt; 
+&lt;p&gt; Red is the color at the end of the visible spectrum of light, next
+to orange and opposite violet. It has a dominant wavelength of approximately
+625&ndash;740 nanometres. It is a primary color in the RGB color model and 
+the CMYK color model, and is the complementary color of cyan. Reds range from
+the brilliant yellow-tinged scarlet and vermillion to bluish-red crimson,
+and vary in shade from the pale red pink to the dark red burgundy. &lt;/p&gt; 
+&lt;/body&gt; 
+&lt;/html&gt;
+                                    </pre>
+
+
+                    Did you just see what happened?
+                    We just created a basic page where we are talking about the colour red.
+                    It looks like a big chunk of information under a heading. Lets try beautifying it. <br><br>
+                    Let’s break the content into multiple lines. We will be using the < br> tag, this is one of those
+                    rare tags that do not require a closing tag. <br><br>
+
+                    <pre class="project-container">
+&lt;!DOCTYPE html&gt; 
+&lt;html&gt; 
+&lt;head&gt; 
+&lt;title&gt;Our Page&lt;/title&gt; 
+&lt;/head&gt; 
+&lt;body&gt; 
+&lt;h1 style=&quot;text-align:center; font-size:30px; color:red&quot;&gt; Red Heading &lt;/h1&gt; 
+&lt;p&gt; Red is the color at the end of the visible spectrum of light, next
+to orange and opposite violet. &lt;br&gt; 
+It has a dominant wavelength of approximately625&ndash;740 nanometres. &lt;br&gt;
+It is a primary color in the RGB color model and the CMYK color model.&lt;br&gt;
+Reds range from the brilliant yellow-tinged scarlet and vermillion to red crimson,
+and vary in shade from the pale red pink to the dark red burgundy. &lt;/p&gt; 
+&lt;/body&gt; 
+&lt;/html&gt;
+                                                            </pre>
+
+
+        
+
+    </div>
+
+
+
+</body>
+
+</html>

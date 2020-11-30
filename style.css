@@ -57,6 +57,13 @@ td{
     text-align: center;
 }
 
+.blog-container{
+    margin: auto;
+    padding: 2rem 1rem;
+    max-width: 700px;
+    text-align: left;
+}
+
 .project-container{
     margin: auto;
     padding: 2rem 1rem;
